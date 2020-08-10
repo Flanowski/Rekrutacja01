@@ -1,0 +1,13 @@
+{
+	"name": "ExtractConfig",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlDb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
